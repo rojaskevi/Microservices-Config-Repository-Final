@@ -128,7 +128,7 @@ Routes:
         UpstreamPathTemplate: /api/Report
         ServiceName: Microservices.Demo.Report.API
         UpstreamHttpMethod: 
-            - Get
+            - Post
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
 #            AllowedScopes:
