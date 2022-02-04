@@ -129,8 +129,6 @@ Routes:
         ServiceName: Microservices.Demo.Report.API
         UpstreamHttpMethod: 
             - Get
-        FileCacheOptions: 
-            TtlSeconds: 15
         AuthenticationOptions:
             AuthenticationProviderKey: ApiSecurityAuthenticationScheme
 #            AllowedScopes:
